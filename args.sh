@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+for a in "$@"
+do
+  echo $a
+done
+
+exit 0
