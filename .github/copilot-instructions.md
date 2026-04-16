@@ -18,6 +18,7 @@ This workspace contains educational bash scripts from "Advanced Bash Scripting b
 | Script | Focus Area | Key Concepts |
 |--------|-----------|--------------|
 | `args.sh` | Basics | Positional parameters, `"$@"` quoting |
+| `arglist.sh` | Basics | Multiple arguments handling, error checking |
 | `array.sh` | Data structures | Array initialization, safe expansion `"${arr[@]}"` |
 | `for-loopcmd.sh` | Control flow | For loops, command substitution |
 | `case.sh` | Conditionals | Case statements, POSIX character classes `[[:digit:]]` |
@@ -28,7 +29,9 @@ This workspace contains educational bash scripts from "Advanced Bash Scripting b
 | `nested-loop.sh` | Advanced loops | Complex nested iteration patterns |
 | `in-list.sh` | String matching | Array membership checks, regex patterns |
 | `input.sh` | Input handling | `read` command, loop condition sequencing |
+| `read-novar.sh` | Input handling | `read` command basics, variable capture |
 | `check-reboot.sh` | System interaction | `uname`, `readlink`, system checks |
+| `address.sh` | Data interaction | Contact database, menu-driven selection |
 
 ### Supporting Scripts
 
